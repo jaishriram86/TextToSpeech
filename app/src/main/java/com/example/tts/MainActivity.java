@@ -8,6 +8,8 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
+
 import java.util.Locale;
 import java.util.Set;
 
@@ -60,5 +62,10 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        simpleFunc();
+
+    }
+    public void simpleFunc(){
+        Toast.makeText(this, "hello my friend", Toast.LENGTH_SHORT).show();
     }
 }
